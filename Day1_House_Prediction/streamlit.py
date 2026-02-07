@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 st.title("🏠 House Price Prediction App Using Streamlit")
 
 # Load dataset
-df = pd.read_csv("Housing.csv")
+df = pd.read_csv(r"C:\Users\Vimalraj\OneDrive\Desktop\30_days_Machine_learning_challenge\Day1_House_Prediction\Housing.csv")
 
 # Convert yes/no to 1/0
 df.replace({'yes': 1, 'no': 0}, inplace=True)
@@ -40,3 +40,4 @@ if st.button("Predict Price"):
     input_data = np.array([[area, bedrooms, bathrooms, stories, parking]])
     prediction = model.predict(input_data)
     st.success(f"💰 Predicted House Price: ₹ {int(prediction[0]):,}")
+
