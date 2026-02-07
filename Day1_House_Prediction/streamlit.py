@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 import os
 import pandas as pd
 
-BASE_DIR = os.path.dirname("C:\Users\Vimalraj\OneDrive\Desktop\30_days_Machine_learning_challenge\Day1_House_Prediction\Housing.csv")
+BASE_DIR = os.path.dirname(r"C:\Users\Vimalraj\OneDrive\Desktop\30_days_Machine_learning_challenge\Day1_House_Prediction\Housing.csv")
 df = os.path.join(BASE_DIR, "Housing.csv")
 
 st.title("🏠 House Price Prediction App Using Streamlit")
@@ -43,6 +43,7 @@ if st.button("Predict Price"):
     input_data = np.array([[area, bedrooms, bathrooms, stories, parking]])
     prediction = model.predict(input_data)
     st.success(f"💰 Predicted House Price: ₹ {int(prediction[0]):,}")
+
 
 
 
