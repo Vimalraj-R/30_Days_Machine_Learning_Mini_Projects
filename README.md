@@ -51,6 +51,8 @@ Every mini project follows this standard process:
 
 <img width="1010" height="885" alt="image" src="https://github.com/user-attachments/assets/7b9dd3af-c801-4c0e-8295-719079f9413f" />
 
+| Day | Project |
+|----|--------|
 | Day 2 | Student Marks Prediction |
 | Day 3 | Salary Prediction |
 | Day 4 | Ice Cream Sales vs Temperature |
