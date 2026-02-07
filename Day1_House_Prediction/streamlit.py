@@ -3,12 +3,15 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
+import os
+import pandas as pd
 
-# Title
+BASE_DIR = os.path.dirname(__file__)
+df = os.path.join(BASE_DIR, "Housing.csv")
+
 st.title("🏠 House Price Prediction App Using Streamlit")
 
-# Load dataset
-df = pd.read_csv(r"C:\Users\Vimalraj\OneDrive\Desktop\30_days_Machine_learning_challenge\Day1_House_Prediction\Housing.csv")
+df = pd.read_csv(data_path)
 
 # Convert yes/no to 1/0
 df.replace({'yes': 1, 'no': 0}, inplace=True)
@@ -40,4 +43,5 @@ if st.button("Predict Price"):
     input_data = np.array([[area, bedrooms, bathrooms, stories, parking]])
     prediction = model.predict(input_data)
     st.success(f"💰 Predicted House Price: ₹ {int(prediction[0]):,}")
+
 
