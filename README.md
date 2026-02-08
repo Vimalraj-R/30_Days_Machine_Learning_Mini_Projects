@@ -54,6 +54,11 @@ Every mini project follows this standard process:
 | Day | Project |
 |----|--------|
 | Day 2 | Student Marks Prediction |
+
+<img width="1010" height="885" alt="image" src="https://github.com/Vimalraj-R/30_Days_Machine_Learning_Mini_Projects/blob/dbc912038b7122a9e3e2a25a92d2409d74d55313/Day2_Student_Performance_Prediction/Output.png"/>
+
+| Day | Project |
+|----|--------|
 | Day 3 | Salary Prediction |
 | Day 4 | Ice Cream Sales vs Temperature |
 | Day 5 | Height vs Weight Classification |
