@@ -60,6 +60,11 @@ Every mini project follows this standard process:
 | Day | Project |
 |----|--------|
 | Day 3 | Salary Prediction |
+
+<img width="1010" height="885" alt="image" src="https://github.com/Vimalraj-R/30_Days_Machine_Learning_Mini_Projects/blob/ab84afdf659d2fa809572be9636f55d7df4f9eaf/Day3_Salary_Prediction/output.png"/>
+
+| Day | Project |
+|----|--------|
 | Day 4 | Ice Cream Sales vs Temperature |
 | Day 5 | Height vs Weight Classification |
 | Day 6 | Pass / Fail Prediction |
